@@ -84,7 +84,7 @@ const Home = () => {
 
             <button 
               onClick={() => { setEditingPlace(null); setIsModalOpen(true); }}
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-lg hover:shadow-xl transition-all transform active:scale-95 mb-1"
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-1.5 px-3 rounded-lg shadow-md hover:shadow-xl transition-all transform active:scale-95 mb-1"
             >
               + Ekle
             </button>
